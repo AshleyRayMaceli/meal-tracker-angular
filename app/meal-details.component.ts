@@ -7,8 +7,8 @@ import { Meal } from './meal.model';
   inputs: ['meal'],
   directives: [EditMealDetailsComponent],
   template: `
-    <h3>{{ meal.description }}</h3>
-    <h3>{{ meal.calories }} calories</h3>
+    <h2>{{ meal.description }}</h2>
+    <h2>{{ meal.calories }} calories</h2>
     <edit-meal-details [meal]="meal"></edit-meal-details>
   `
 })

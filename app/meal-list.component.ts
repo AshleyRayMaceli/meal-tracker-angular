@@ -26,7 +26,7 @@ import { CaloriesPipe } from './calories.pipe';
         </meal-display>
       </div>
 
-      <div *ngIf="selectedMeal" class="col-xs-6">
+      <div *ngIf="selectedMeal" class="col-xs-6 details-column">
         <h3>Meal Details:</h3>
         <meal-details
           [meal]="selectedMeal">

@@ -1,7 +1,46 @@
+body {
+  background-image: url(/resources/images/sushi.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #9EBEE1;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 h1 {
-  color: blue;
+  color: #FF4646;
+  font-size: 60pt;
+  text-shadow: 2px 0px 3px #000000;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .selected {
-  color: #22bdf0;
+  color: white;
+  h3 {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20pt;
+  }
+}
+
+.details-column {
+  border-left: dotted 3px;
+  h3 {
+    font-size: 30pt;
+  }
+}
+
+.meal-form {
+  margin-top: 40px;
+  .add-button {
+    margin-top: 25px;
+    font-size: 20pt;
+  }
+}
+
+.edit-meal-form {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
