@@ -13,6 +13,7 @@ import { CaloriesPipe } from './calories.pipe';
   directives: [MealComponent, MealDetailsComponent, NewMealComponent],
   template: `
     <div class="row">
+
       <div class="col-xs-6">
       <select (change)="onChange($event.target.value)">
         <option value="all" selected="selected">Show All Meals</option>
