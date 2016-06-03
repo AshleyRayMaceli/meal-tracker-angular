@@ -5,7 +5,7 @@ import { Meal } from './meal.model';
   selector: 'meal-display',
   inputs: ['meal'],
   template: `
-    <h3>{{ meal.name }}</h3>
+    <h3>{{ meal.name }} <img *ngIf="meal.calories <= 500" src="resources/images/leaf.png" class="leaf"></h3>
   `
 })
 export class MealComponent {
