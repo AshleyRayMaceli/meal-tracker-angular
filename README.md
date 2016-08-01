@@ -1,3 +1,5 @@
+![Home Page] (screenshot.png)
+
 # _Meal Tracker Angular App_
 
 #### _A web app that allows the user to add and edit meals with descriptions and calories and filter healthy and unhealthy meals._

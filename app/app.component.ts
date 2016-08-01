@@ -24,7 +24,7 @@ export class AppComponent {
       new Meal("Summer Salad", "Spinach, Strawberries, Avocado, Blueberries, Balsamic", 250),
       new Meal("Gala Apple", "A healthy snack!", 150),
       new Meal("Spicy Ramen", "Miso based broth with noodles, pork and an egg", 620),
-      new Meal("Lavendar Ice Cream", "Dessert from Salt n' Straw!", 510)
+      new Meal("Lavender Ice Cream", "Dessert from Salt n' Straw!", 510)
     ];
   }
   mealWasSelected(clickedMeal: Meal): void  {
